@@ -35,14 +35,14 @@ Place the craft_to_obsidian_migrator.py script inside this folder.
 
 Inside craft-migration, create an input folder.
 
-Unzip your Craft export and place the main content folder (e.g., Corys Space) inside the input folder.
+Unzip your Craft export and place the main content folder (e.g., Craft Export) inside the input folder.
 
 Your final structure should look like this:
 
 craft-migration/
 ├── craft_to_obsidian_migrator.py
 └── input/
-    └── Corys Space/
+    └── Craft Export/
         └── ... (all your notes, folders, and .textbundle files)
 
 2. Run the Script
@@ -58,7 +58,7 @@ cd ~/Downloads/craft-migration
 
 Run the script with one simple command, pointing it to your export folder:
 
-python craft_to_obsidian_migrator.py "./input/Corys Space"
+python craft_to_obsidian_migrator.py "./input/Craft Export"
 
 (Using quotes around the path is a good habit to handle any spaces in folder names.)
 
@@ -76,4 +76,5 @@ Delete notes that are empty after conversion? (y/n):
 Once you've answered, the script will take care of the rest, building you a perfect Obsidian vault in a folder named obsidian-vault.
 
 License
+
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. See the LICENSE.md file for details. This means you are free to share and adapt the work for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
